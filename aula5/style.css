@@ -1,0 +1,38 @@
+h1{
+    background-color: hsl(240, 100%, 50%);/* #00f rgb(0,0,255) blue */
+    color: hsl(0,0%,100%);
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Trebuchet MS', sans-serif;
+}
+h1:hover{
+    background-color: hsl(240, 100%, 30%);
+}
+/* Desafio
+Criar a classe t1
+Cor de fundo, vcs escolhem
+Cor do texto, vcs escolhem
+largura 40 %
+altura 40 do viewport
+*/
+.t1{
+    background-color: hsla(207, 65%, 42%, 0.767);
+    color: rgb(241, 241, 241);
+    width:40%;/*largura vw */
+    height: 40vh;/*altura vh */
+    font-family: Garamond, serif;
+}
+.t2{
+    background-color: hsl(120, 100%, 50%);/*#0f0 rgb(0,255,0) green */
+    width: 500px;/* width - largura */
+    height: 500px;/*height - altura */
+    font-family: 'Brush Script MT', cursive;
+}
+.t3{
+    background-color: hsl(0, 100%, 50%);/* #f00 rgb(255,0,0) red */
+    font-size:1.5rem;/* 1.5rem = 24px */
+    width: 50vw;
+    font-family: papyrus;
+}
+/* .t3:hover{
+    width:100%;
+} */
