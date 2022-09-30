@@ -1,0 +1,15 @@
+h1{
+    background-color: blue;
+}
+.cor1{
+    background-color: #f00;/* Hexadecimal 00-FF #RRGGBB  #RGB #F00 */
+}
+.cor2{
+    background-color: #00FF00;
+}
+.cor3{
+    background-color: rgb(0,0,255);/*rgb(r,g,b) 0-255 0%-100% */
+}
+.cor4{
+    background-color: hsla(0, 0%, 50%, 0.959);
+}
