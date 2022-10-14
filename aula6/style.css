@@ -7,3 +7,7 @@
     width: 80%;
     border: 1px solid red;
 }
+.imagens img{
+    /*width: 100px; width: 100vw; width: 100%;*/
+    width: 100%;
+}
