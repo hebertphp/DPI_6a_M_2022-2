@@ -6,6 +6,7 @@
 .imagens{
     width: 80%;
     border: 1px solid red;
+    margin:auto;
 }
 .imagens img{
     /*width: 100px; width: 100vw; width: 100%;*/
