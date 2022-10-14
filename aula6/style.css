@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .imagens{
     width: 80%;
@@ -11,4 +12,9 @@
 .imagens img{
     /*width: 100px; width: 100vw; width: 100%;*/
     width: 100%;
+}
+h1{
+    background-color: hsl(240 100% 50%/0.3);
+    color: #fff;
+    text-align: center;
 }
