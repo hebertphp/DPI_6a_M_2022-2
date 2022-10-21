@@ -13,3 +13,7 @@
 .container img{/* estilizar a imagem que está dentro do container */
     width: 100%;/* 100% da largura da imagem dentro do container*/
 }
+section{/* estilizando todas as section */
+    background-color: beige;/* cor de fundo  */
+    height: 100vh;/* altura de 100 viewport*/
+}
