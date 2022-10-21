@@ -17,7 +17,7 @@
 section{/* estilizando todas as section */
     background-color: beige;/* cor de fundo  */
     height: 100vh;/* altura de 100 viewport*/
-    margin-top: 70px;
+    padding-top:30px;/* distanciamento interna da parte superior da section */
 }
 nav{
     background-color: aliceblue;
