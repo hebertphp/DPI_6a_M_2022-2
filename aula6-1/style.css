@@ -8,7 +8,8 @@
 .container{
     width: 50%;/* Largura do container */
     border: 1px solid blue; /* Borda ao redor do conatiner */
-    margin:auto;/* centralizado na página */
+    /* margin:auto;centralizado na página */
+    margin:50px auto;
 }
 .container img{/* estilizar a imagem que está dentro do container */
     width: 100%;/* 100% da largura da imagem dentro do container*/
@@ -16,4 +17,12 @@
 section{/* estilizando todas as section */
     background-color: beige;/* cor de fundo  */
     height: 100vh;/* altura de 100 viewport*/
+    margin-top: 70px;
+}
+nav{
+    background-color: aliceblue;
+    text-align: center;
+    position: fixed;
+    top:0;
+    width: 100%;
 }
