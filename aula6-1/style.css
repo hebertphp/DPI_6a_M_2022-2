@@ -6,8 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
-    width: 500px;/* Largura do container */
+    width: 50%;/* Largura do container */
     border: 1px solid blue; /* Borda ao redor do conatiner */
+    margin:auto;/* centralizado na página */
 }
 .container img{/* estilizar a imagem que está dentro do container */
     width: 100%;/* 100% da largura da imagem dentro do container*/
