@@ -1,0 +1,14 @@
+/*  Reset da Página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 500px;/* Largura do container */
+    border: 1px solid blue; /* Borda ao redor do conatiner */
+}
+.container img{/* estilizar a imagem que está dentro do container */
+    width: 100%;/* 100% da largura da imagem dentro do container*/
+}
