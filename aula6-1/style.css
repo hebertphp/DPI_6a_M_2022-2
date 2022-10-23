@@ -17,12 +17,17 @@
 section{/* estilizando todas as section */
     background-color: beige;/* cor de fundo  */
     height: 100vh;/* altura de 100 viewport*/
-    padding-top:30px;/* distanciamento interna da parte superior da section */
+    padding-top:40px;/* distanciamento interna da parte superior da section */
 }
 nav{
-    background-color: aliceblue;
+    background-color: hsla(208, 100%, 97%, 0.507);
     text-align: center;
     position: fixed;
     top:0;
     width: 100%;
+    height: 40px;
+}
+nav a {
+    padding: 5px 20px;
+    display: inline-block;
 }
