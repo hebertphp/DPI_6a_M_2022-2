@@ -2,5 +2,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .cardapio{/* estilizar a class="cardapio" */
-    list-style-type: upper-roman;
+    list-style-type:upper-alpha;/* decimal-leading-zero;*/
+}
+.lanche{
+    list-style-type:decimal-leading-zero;
+}
+.cardapio  li{/* estilizando todos as tags li que estão dentro da class="cardapio" */
+    list-style-type:none;
+}
+ul{
+    /* list-style-type:square; */
+    list-style-image: url('https://www.w3schools.com/cssref/sqpurple.gif');
 }
