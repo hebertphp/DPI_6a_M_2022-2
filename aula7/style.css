@@ -3,6 +3,10 @@
     --cor-fundo:hsl(240, 100%, 30%);/* cria a variável --cor-fundo com a cor azul escuro */
     --cor-hover: hsl(0, 0%, 50%);/*  cria a variável --cor-hover com a cor cinza*/
     --cor-link: hsl(0, 0%, 100%);/* cria a variável --cor-link com a cor branca*/
+    --cor-fundo-div1:hsl(0, 100%, 50%);
+    --cor-fundo-div2:rgb(208, 43, 226);
+    --cor-texto:white;
+    /* nome da variável --nome:valor; */
 }
 
 /* -- reset de página */
@@ -44,4 +48,29 @@ header nav ul li a{
 /* formata ao passar o mouse sobre a tag a que está dentro de li que está dentro de ul que está dentro de nav que está dentro de header */
 header nav ul li a:hover{
     background-color: var(--cor-hover);/* aplica o valor da variável --cor-hover para a cor de fundo  */
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    border: 1px solid red;
+    color:var(--cor-texto);
+    display:flex;
+    justify-content:space-between;
+    /* horizontal(eixo principal) start|center|end|space-between|space-around */
+    align-items:center;
+    /* vertical (eixo cruzado) */
+    gap:10px;
+    /* */
+    flex-wrap: wrap;
+}
+.d{
+    width:150px;
+    height:50px;
+    border: 1px solid blue;
+}
+.div1{
+    background-color: var(--cor-fundo-div1);
+}
+.div2{
+    background-color: var(--cor-fundo-div2);
 }
