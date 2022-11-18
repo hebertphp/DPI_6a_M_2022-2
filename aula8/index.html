@@ -22,9 +22,25 @@
         </fieldset> 
         <fieldset>
             <legend>Lista de Mercado</legend>
-            <input type="checkbox" name="leite" id="leite"> <label for="leite">Leite</label><br>
-            <input type="checkbox" name="sabao" id="sabao"> Sabão<br>
-            <input type="checkbox" name="cafe" id="cafe" checked> Café ☕<br>
+            <input type="checkbox" name="leite" value="leite" id="leite"> <label for="leite">Leite</label><br>
+            <input type="checkbox" name="sabao" value="sabao" id="sabao"> <label for="sabao">Sabão</label><br>
+            <input type="checkbox" name="cafe" value="cafe" id="cafe" checked><label for="cafe">Café ☕</label> <br>
+        </fieldset>
+        <!-- Arrumar os campos radio para permitir selecionar apenas 1 -->
+        <fieldset>
+            <legend>Qual o nome da disciplina de sexta-feira</legend>
+            <input type="radio" name="disciplina" value="arquitetura" id="arq" > <label for="arq">Arquitetura</label> <br>
+            <input type="radio" name="disciplina" value="front-end" id=""> Front-End<br>
+            <input type="radio" name="disciplina" value="internet das coisas" id=""> Internet das coisas<br>
+            <input type="radio" name="disciplina" value="html-css" id=""> HTML-CSS<br>
+        </fieldset>
+        <fieldset>
+            <legend>UF</legend>
+            Selecione o UF <select name="uf">
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+            </select>
         </fieldset>
         <input type="submit" value="Validar"><input type="reset" value="Limpar">
         <p>* - Campo Obrigatório!</p>
