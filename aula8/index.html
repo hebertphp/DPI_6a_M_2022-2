@@ -44,10 +44,22 @@
         </fieldset>
         <!-- 
             Desafio:
-            Montar um form para envio de mensagens de e-mail
+            Montar um form para envio de mensagens de e-mail:
+            * e-mail ✔
+            * assunto ✔
+            * Telefone de contato (opcional)
+            * mensagem
          -->
         <fieldset>
             <legend>Envio de mensagem de e-mail</legend>
+            <label for="email">email</label> <input type="email" name="email" id="email" required placeholder="digite seu email"><span>*</span><br>
+            <label for="assunto">assunto</label><input type="text" name="assunto" id="assunto"><br>
+            Deseja receber nossas novidades?<br>
+            <input type="radio" name="novidade" id="sim" value="sim"><label for="sim">Sim</label>
+            <input type="radio" name="novidade" id="nao" value="nao"><label for="nao">Não</label><br>
+            <label for="msg">Mensagem</label><textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            <!-- <input type="text" name="msg" id="msg" placeholder="Digite sua mensagem"> -->
+            <hr>
 
         </fieldset>
         <input type="submit" value="Validar"><input type="reset" value="Limpar">
