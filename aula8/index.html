@@ -48,7 +48,7 @@
             * e-mail ✔
             * assunto ✔
             * Telefone de contato (opcional)
-            * mensagem
+            * mensagem ✔
          -->
         <fieldset>
             <legend>Envio de mensagem de e-mail</legend>
@@ -59,8 +59,29 @@
             <input type="radio" name="novidade" id="nao" value="nao"><label for="nao">Não</label><br>
             <label for="msg">Mensagem</label><textarea name="msg" id="msg" cols="90" rows="5" placeholder="digite sua mensagem"></textarea>
             <!-- <input type="text" name="msg" id="msg" placeholder="Digite sua mensagem"> -->
-            <hr>
-
+        </fieldset>
+        <!-- 
+            Agendamento:
+            * Data: de 25/11/2022 até 20/12/2022
+            * Horário: - comercial (das 09 até 18)
+         -->
+        <fieldset>
+            <legend>Agendamento</legend>
+            <label for="DataHora">Data</label><input type="datetime-local" name="DataHora" id="DataHora" placeholder="Data" ><br>
+            <label for="data"> Data </label> <input type="date" name="data" id="data" min="2022-11-25" max="2022-12-20"><br>
+            <label for="horario">Digite o horario</label><input type="time" name="horario" id="horario" min="09:00" max="18:00">
+        </fieldset>
+        <fieldset>
+            <legend>Navegador</legend>
+            <label for="browser">Navegador:</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
         </fieldset>
         <input type="submit" value="Validar"><input type="reset" value="Limpar">
         <p>* - Campo Obrigatório!</p>
