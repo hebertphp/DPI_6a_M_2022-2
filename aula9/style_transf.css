@@ -13,6 +13,8 @@
     margin-left:50%;
     transition-property: transform, background-color;
     transition-duration: 2s,1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
     /* transition: 0.5s; */
     
 }
@@ -20,6 +22,6 @@
     /* transform:  translateX(150px) rotate(45deg); */
     /* transform:  rotate(45deg) translateX(150px) ; */
     /* transition: 0.5s; */
-    transform: scale(2,0.5);
+    transform: scale(3,0.5);
     background-color: yellow;
 }
