@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: antiquewhite;
+}
 .simples{
     width: 100px;
     height: 100px;
@@ -11,7 +14,7 @@
     animation-name: anima;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
-    animation-delay:1s;
+    animation-delay:0.5s;
     animation-iteration-count:infinite;
     animation-direction:alternate ;
 }    
@@ -23,5 +26,23 @@
         transform: translateX(400px);
         border-radius: 50%;
         background-color: yellow;
+    }
+}    
+h1{
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    transform: translateY(0px);
+    animation: flutua 5s ease-in-out infinite;
+}
+@keyframes flutua {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
     }
 }    
